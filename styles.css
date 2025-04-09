@@ -1,0 +1,68 @@
+body {
+    font-family: "Poppins", sans-serif;
+    padding: 20px;
+    height: 100vh;
+    margin: 0;
+    background-image: url('./images/ibe🫶🏻.jpeg'), url('./images/ibe\ 2.webp');
+    background-position: left, right;
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed;
+    background-size: 50% 100%, 50% 100%;
+  }
+  
+  #title {
+    text-align: center;
+  }
+
+  #main {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+
+  #info-text {
+    text-align: center;
+  }
+  
+  #image {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  #tribute-info {
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    text-align: left;
+  }
+
+  .album-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .album-list li {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    background-color: #2c2c2c;
+    color: rgb(244, 185, 114);
+    border-radius: 10px;
+  }
+
+  #tribute-link {
+    color: white;
+  }
